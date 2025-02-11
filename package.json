@@ -1,10 +1,10 @@
 {
-  "name": "parcel-project-template",
+  "name": "WB",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://Svetlana2505.github.io/WB",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/g*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
