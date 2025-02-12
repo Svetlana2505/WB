@@ -5,7 +5,7 @@
   "homepage": "https://Svetlana2505.github.io/WB",
   "scripts": {
     "start": "parcel src/g*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /WB/"
   },
   "repository": {
     "type": "git",
