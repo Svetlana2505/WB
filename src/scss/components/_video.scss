@@ -28,7 +28,11 @@
     line-height: 1.6;
   }
 
-  small {
+  a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123%;
     color: var(--light-grey);
   }
 
