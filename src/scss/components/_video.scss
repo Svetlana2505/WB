@@ -41,16 +41,19 @@
   }
 }
 
-.video {
-  iframe {
-    display: block;
-    height: 315px;
-    border: none;
+.video-box {
+  position: relative;
+  display: block;
+  max-height: 600px;
+  border: none;
+}
 
-    @media (min-width: 568px) {
-      height: 600px;
-    }
-  }
+.video-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10vw;
 }
 
 .video-wrapper {
