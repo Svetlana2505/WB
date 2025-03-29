@@ -4,6 +4,7 @@
 
 .footer-form {
   position: relative;
+  padding: 40px 0;
 }
 
 .footer-form-img {
@@ -157,12 +158,6 @@ form {
     display: inline;
   }
 
-  .footer-form {
-    background-image: url(../images/footer-img.webp);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding: 40px 0;
-  }
   .footer-form-box {
     padding: 0;
 
@@ -262,6 +257,12 @@ form {
 }
 
 @media (min-width: 1200px) {
+  .footer-form {
+    background-image: url(../images/footer-img.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: left 120% bottom;
+  }
   .footer-list-nav {
     gap: 90px;
   }
