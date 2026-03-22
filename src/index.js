@@ -23,7 +23,7 @@ const swiper2 = new Swiper('.swiper2', {
   loop: true,
 
   speed: 1500,
-  sccMode: false,
+  cssMode: false,
 
   effect: 'slide',
   spaceBetween: 20,
@@ -35,17 +35,14 @@ const swiper2 = new Swiper('.swiper2', {
   },
 
   breakpoints: {
-    480: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+    576: {
+      slidesPerView: 2,
     },
     768: {
-      slidesPerView: 2,
-      spaceBetween: 40,
-    },
-    1200: {
       slidesPerView: 3,
-      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
     },
   },
 });
@@ -64,17 +61,14 @@ const swiper3 = new Swiper('.swiper3', {
   },
 
   breakpoints: {
-    480: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+    576: {
+      slidesPerView: 2,
     },
     768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    1200: {
       slidesPerView: 3,
-      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
     },
   },
 });

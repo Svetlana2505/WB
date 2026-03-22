@@ -13,8 +13,6 @@
 }
 
 .swiper2 .swiper-slide {
-  width: 320px !important;
-  height: auto !important;
   background: var(--white);
   border-radius: 10px;
   padding: 0;
@@ -73,6 +71,12 @@
   gap: 21px;
 }
 
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
 .card-img {
   position: relative;
   overflow: hidden;
@@ -115,9 +119,5 @@
     h2 {
       margin-bottom: 80px;
     }
-  }
-
-  .swiper2 .swiper-slide {
-    width: 400px !important;
   }
 }

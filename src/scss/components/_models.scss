@@ -1,6 +1,9 @@
 .models {
   background: var(--bl);
   background-image: url(../images/bg-models.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 40px 0;
 
   h2 {
@@ -11,27 +14,10 @@
 }
 
 .swiper3 .swiper-slide {
-  width: 320px !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
+  margin: 0;
   background: var(--white);
   border-radius: 10px;
   padding: 0;
-}
-
-@media (min-width: 768px) {
-  .card-product {
-    button {
-      display: none;
-    }
-  }
-
-  .text {
-    display: none;
-  }
-
-  .models {
-    h2 {
-      width: 418px;
-    }
-  }
 }

@@ -1,8 +1,7 @@
 .button {
   border-radius: 10px;
   padding: 16px 0px;
-  width: 288px;
-  height: 57px;
+  min-width: 200px;
   background: var(--orange);
   border: none;
   outline: none;
